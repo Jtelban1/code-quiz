@@ -101,7 +101,8 @@ function evaluateAnswer(ev) {
     // save to evaluation
     let correct =
         Number(questionArr[ev.target.dataset.question].correctAnswer) ===
-        Number(ev.target.dataset.answer);
+        Number(ev.target.dataset.answer) + 1;
+    console.log(correct);
     givenAnswers.push(correct);
     // does next question exist?
     let nextIndex = Number(ev.target.dataset.question) + 1;
