@@ -1,0 +1,34 @@
+.result-box {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px #9c9cef solid;
+    border-radius: 5px;
+    padding: 7px;
+    font-stlye: bold;
+    font-family: fantasy;
+    background-color: gold;
+}
+
+.title {
+    color: cornflowerblue;
+    font-weight: 5000;
+    font-family: fantasy;
+    font-size: 100px;
+}
+
+#startButton {
+    color: darkblue;
+    background-color: gold;
+}
+
+.columns {
+    margin-top: 50px;
+}
+
+
+
+
+.card-content {
+    background-color: lightskyblue;
+    padding: 100;
+
